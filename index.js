@@ -36,7 +36,7 @@ module.exports = class ViewRaw extends (Plugin) {
 				let channelID = message.channel_id;
 
 				let guildID = [0, 4, 5].includes(args[0].channel.type) ? args[0].channel.guild_id : '@me';
-				let url = `https://discord.com/channels/${guildID}/${channelID}/${msgID}`;
+				let url = `https://furry.discord.com/channels/${guildID}/${channelID}/${msgID}`;
 				
 				res.props.children.splice(
 					4,
